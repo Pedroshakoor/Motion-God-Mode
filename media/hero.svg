@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="a b">
+<title id="a">Motion God Mode — code is the camera</title><desc id="b">Editorial dark screen with lime hero typography and temporal grid.</desc>
+<rect width="1200" height="520" fill="#10120F"/>
+<g stroke="#293026" stroke-width="1" opacity=".7">
+<path d="M80 36v448M160 36v448M240 36v448M320 36v448M400 36v448M480 36v448M560 36v448M640 36v448M720 36v448M800 36v448M880 36v448M960 36v448M1040 36v448M1120 36v448"/>
+<path d="M32 80h1136M32 160h1136M32 240h1136M32 320h1136M32 400h1136"/>
+</g>
+<rect x="24" y="24" width="1152" height="472" fill="none" stroke="#4C6540" stroke-width="2"/>
+<text x="65" y="85" fill="#D7FC65" font-size="22" font-family="Arial,Helvetica,sans-serif" font-weight="700" letter-spacing="4">M / G / M</text>
+<text x="1135" y="85" text-anchor="end" fill="#8D9E84" font-family="monospace" font-size="15" letter-spacing="2">001 — 192 FRAMES</text>
+<text x="59" y="245" fill="#EDF0E9" font-size="93" font-family="Arial,Helvetica,sans-serif" font-weight="900" letter-spacing="-4">MOTION</text>
+<rect x="54" y="265" width="1090" height="133" rx="7" fill="#D7FC65"/>
+<text x="71" y="367" fill="#10120F" font-size="103" font-family="Arial,Helvetica,sans-serif" font-weight="900" letter-spacing="-6">GOD MODE.</text>
+<text x="65" y="452" fill="#D7FC65" font-family="Arial,Helvetica,sans-serif" font-size="21" letter-spacing="3" font-weight="700">NO CAMERA. NO SLOP. JUST CINEMA, COMPILED.</text>
+</svg>

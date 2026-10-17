@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "info": {
+    "expected_duration_seconds": 8.0,
+    "scene_count": 4,
+    "verified_fact_count": 0,
+    "video_path": "media/demo.mp4",
+    "video_codec": "h264",
+    "actual_fps": 24.0,
+    "actual_duration_seconds": 8.0,
+    "audio_stream_count": 1
+  }
+}

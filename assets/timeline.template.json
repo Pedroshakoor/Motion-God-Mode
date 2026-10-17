@@ -1,0 +1,33 @@
+{
+  "project": "{{PROJECT}}",
+  "mode": "{{MODE}}",
+  "fps": {{FPS}},
+  "duration_frames": {{FRAMES}},
+  "width": {{WIDTH}},
+  "height": {{HEIGHT}},
+  "aspect": "{{ASPECT}}",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": {{FRAMES}},
+      "purpose": "Stop the scroll with a single undeniable idea",
+      "visual": "A hero visual that evolves instead of random montage",
+      "action": "Anticipation, readable movement, follow-through, settle",
+      "camera": "One motivated camera movement or locked-off",
+      "type": "Minimal bold hierarchy; entries, holds and exits",
+      "audio": "Specific frame-aligned cue and reason",
+      "claims": [],
+      "transition": "Continuity object through the next composition",
+      "proof": "What the viewer learns/sees without reading an explanation"
+    }
+  ],
+  "audio_cues": [],
+  "export": {
+    "container": "mp4",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_target_lufs": -14,
+    "true_peak_limit_dbtp": -3
+  }
+}

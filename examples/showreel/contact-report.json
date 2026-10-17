@@ -1,0 +1,30 @@
+{
+  "samples": 40,
+  "sample_interval_s": 0.2,
+  "contact_sheet": "media/contact-sheet.jpg",
+  "sampled_dark_times_s": [],
+  "sampled_still_times_s": [
+    0.8,
+    1.8,
+    3.4,
+    3.6,
+    6.4,
+    6.6,
+    6.8,
+    7.0,
+    7.2,
+    7.4,
+    7.6,
+    7.8
+  ],
+  "long_still_spans_s": [
+    {
+      "start_s": 6.2,
+      "end_s": 7.8,
+      "duration_s": 1.6
+    }
+  ],
+  "long_dark_spans_s": [],
+  "abrupt_sample_deltas": [],
+  "interpretation": "Sample-based diagnostic only. Holds and fades may be intentional. Inspect dense 0.1s samples around cuts manually."
+}

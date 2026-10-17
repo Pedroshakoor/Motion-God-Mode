@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "target_lufs": -14,
+  "tolerance_lu": 2,
+  "true_peak_limit_dbtp": -3,
+  "measured_lufs": -14.11,
+  "measured_true_peak_dbtp": -3.64,
+  "issues": [],
+  "raw": {
+    "input_i": "-14.11",
+    "input_tp": "-3.64",
+    "input_lra": "0.40",
+    "input_thresh": "-24.11",
+    "output_i": "-13.86",
+    "output_tp": "-3.31",
+    "output_lra": "0.40",
+    "output_thresh": "-23.86",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.14"
+  },
+  "note": "Technical loudness only. Also listen on phone speakers and headphones for voice clarity and creative balance."
+}

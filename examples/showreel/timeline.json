@@ -1,0 +1,93 @@
+{
+  "project": "showreel",
+  "mode": "showreel",
+  "fps": 24,
+  "duration_frames": 192,
+  "width": 960,
+  "height": 540,
+  "aspect": "16:9",
+  "sound": "music + sfx",
+  "scenes": [
+    {
+      "id": "shot-01",
+      "start": 0,
+      "end": 46,
+      "purpose": "Stop the scroll with type",
+      "visual": "Large STOP / SCROLLING message on a restrained editorial grid",
+      "action": "Two oversized words settle and the hero lime bar moves right",
+      "camera": "Locked editorial composition",
+      "type": "Statement enters and holds",
+      "audio": "Original synth bass enters; cue at f=0",
+      "claims": [],
+      "transition": "Electric bar hands off to underline",
+      "proof": "Comprehensible first as a single composed still"
+    },
+    {
+      "id": "shot-02",
+      "start": 46,
+      "end": 89,
+      "purpose": "Name directing as the key",
+      "visual": "DIRECT / DON'T DECORATE as a new two-level typographic composition",
+      "action": "Word enters left, bar stretches into underline and turns into a vertical stem",
+      "camera": "Locked editorial composition",
+      "type": "Statement holds with contrast",
+      "audio": "Percussive beat drives the entering word",
+      "claims": [],
+      "transition": "Lime bar turns into ring",
+      "proof": "Comprehensible first as a single composed still"
+    },
+    {
+      "id": "shot-03",
+      "start": 89,
+      "end": 134,
+      "purpose": "Visual continuity across media",
+      "visual": "One large ring becomes the scene hero; 7 dotted notes orbit on the grid",
+      "action": "Inherited bar curls into ring while small satellites counter-move",
+      "camera": "Locked editorial composition",
+      "type": "EVERY FRAME EARNS IT.",
+      "audio": "Synth note shape steps up, a low note underneath",
+      "claims": [],
+      "transition": "Ring position and acid color resolve into signoff",
+      "proof": "Comprehensible first as a single composed still"
+    },
+    {
+      "id": "shot-04",
+      "start": 134,
+      "end": 192,
+      "purpose": "Make a signoff worth the hold",
+      "visual": "Lime panel fills in and resolves to a large MOTION GOD MODE end mark",
+      "action": "Block grows and title is revealed after the hold",
+      "camera": "Locked editorial composition",
+      "type": "NO CAMERA. NO SLOP. JUST CINEMA, COMPILED.",
+      "audio": "Brief silence leading to end resolving bass",
+      "claims": [],
+      "transition": "End brand is the same hero hue",
+      "proof": "Comprehensible first as a single composed still"
+    }
+  ],
+  "audio_cues": [
+    {
+      "frame": 0,
+      "event": "Bass and hook"
+    },
+    {
+      "frame": 46,
+      "event": "Typographic reversal"
+    },
+    {
+      "frame": 89,
+      "event": "Ring reveal"
+    },
+    {
+      "frame": 134,
+      "event": "Negative space and final reveal"
+    }
+  ],
+  "export": {
+    "container": "mp4",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_target_lufs": -14,
+    "true_peak_limit_dbtp": -3
+  }
+}

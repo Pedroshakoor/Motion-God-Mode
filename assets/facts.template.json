@@ -1,0 +1,11 @@
+{
+  "facts": [],
+  "example_remove_before_release": {
+    "id": "fact-001",
+    "claim": "A demonstrably factual statement shown or spoken in the film",
+    "source": "https://example.com/official-source",
+    "evidence": "Exact supporting quote, line reference, or verified on-screen observation",
+    "verified_at": "YYYY-MM-DD",
+    "status": "unverified"
+  }
+}

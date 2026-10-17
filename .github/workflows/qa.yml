@@ -1,0 +1,29 @@
+name: skill-qa
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test timeline and claim validators
+        run: python -m unittest discover -s tests -v
+      - name: Validate shipped example timeline
+        run: python scripts/validate_project.py examples/showreel
+      - name: Validate Agent Skills frontmatter basics
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('SKILL.md').read_text()
+          assert s.startswith('---\n')
+          front=s.split('---',2)[1]
+          assert '\nname: motion-god-mode\n' in front
+          assert '\ndescription:' in front
+          assert len(s.splitlines()) < 500
+          print('SKILL.md basic structure verified')
+          PY
