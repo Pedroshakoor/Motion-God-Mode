@@ -13,7 +13,11 @@
 
 ![Motion God Mode — Code is the camera. You are the director.](media/hero.svg)
 
-**[Install the skill](#install)** · **[Read the directing system](SKILL.md)** · **[Reproduce the film demo](#rebuild-the-demo)**
+**[Watch the 8-second film with original audio](media/demo.mp4)** · **[Install](#install)** · **[Read the skill](SKILL.md)**
+
+![Motion God Mode — original 8-second motion sequence generated entirely in code](media/preview.gif)
+
+*192 deterministic frames · Original synthesized soundtrack · Full source and QA included*
 
 </div>
 
